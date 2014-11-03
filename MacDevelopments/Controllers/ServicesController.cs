@@ -6,18 +6,11 @@ using System.Web.Mvc;
 
 namespace MacDevelopments.Controllers
 {
-    public class HomeController : Controller
+    public class ServicesController : Controller
     {
         public ActionResult Index()
         {
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
+            return View("Company/About");
         }
 
         public ActionResult Demolition()
@@ -31,6 +24,11 @@ namespace MacDevelopments.Controllers
         }
 
         public ActionResult Contracting()
+        {
+            return View();
+        }
+
+        public ActionResult Projects()
         {
             return View();
         }

@@ -16,10 +16,10 @@ namespace MacDevelopments.Tests.Controllers
         public void Index()
         {
             // Arrange
-            HomeController controller = new HomeController();
+            CompanyController controller = new CompanyController();
 
             // Act
-            ViewResult result = controller.Index() as ViewResult;
+            ViewResult result = controller.About() as ViewResult;
 
             // Assert
             Assert.IsNotNull(result);
@@ -29,7 +29,7 @@ namespace MacDevelopments.Tests.Controllers
         public void About()
         {
             // Arrange
-            HomeController controller = new HomeController();
+            CompanyController controller = new CompanyController();
 
             // Act
             ViewResult result = controller.About() as ViewResult;
@@ -42,7 +42,7 @@ namespace MacDevelopments.Tests.Controllers
         public void Contact()
         {
             // Arrange
-            HomeController controller = new HomeController();
+            CompanyController controller = new CompanyController();
 
             // Act
             ViewResult result = controller.Contact() as ViewResult;
