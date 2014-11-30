@@ -13,22 +13,7 @@ namespace MacDevelopments.Controllers
             return View("Company/About");
         }
 
-        public ActionResult Demolition()
-        {
-            return View();
-        }
-
-        public ActionResult Construction()
-        {
-            return View();
-        }
-
-        public ActionResult Contracting()
-        {
-            return View();
-        }
-
-        public ActionResult Projects()
+        public ActionResult Summary()
         {
             return View();
         }

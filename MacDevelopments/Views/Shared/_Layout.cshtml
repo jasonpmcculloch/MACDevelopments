@@ -23,14 +23,12 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        @Html.ActionLink("MAC Developments", "About", "Company", new { area = "" }, new { @class = "navbar-brand" })
+                        <img src="~/Content/Images/logo_title_bar_02.png" class="navbar-brand" style="max-width: 80px; max-height: 64px; width: auto; height: auto;" />
+                        @Html.ActionLink("MAC Developments", "Summary", "Services", new { area = "" }, new { @class = "navbar-brand" })
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <li>@Html.ActionLink("Construction", "Construction", "Services")</li>
-                            <li>@Html.ActionLink("Demolition", "Demolition", "Services")</li>
-                            <li>@Html.ActionLink("Contracting", "Contracting", "Services")</li>
-                            <li>@Html.ActionLink("Projects", "Projects", "Services")</li>
+                            <li>@Html.ActionLink("About Us", "About", "Company")</li>
                             <li>@Html.ActionLink("Contact", "Contact", "Company")</li>
                         </ul>
                     </div>

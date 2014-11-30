@@ -16,7 +16,7 @@ namespace MacDevelopments
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Company", action = "About", id = UrlParameter.Optional }
+                defaults: new { controller = "Services", action = "Summary", id = UrlParameter.Optional }
             );
         }
     }
